@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+                function findUser(users, item){
+                    let isFoundItem = users.find((user) => user == item)
+                    return isFoundItem ? true : false
+                }
+
+                console.log("is the user present ", findUser([1,2,3,3,4,4], 56))
+        </script>
+    </body>
+  
+</html>
